@@ -1,4 +1,4 @@
-# check_ark_router
+# check_ark_server
 
 ## Usage
 ````bash
