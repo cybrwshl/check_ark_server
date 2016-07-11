@@ -339,7 +339,7 @@ class ArkServerContext(nagiosplugin.Context):
       elif platform is 119:
         platform = 'windows'
 
-      output = 'server \'{}\' is online\n  version: {}\n  map: {}\n  type: {}\n  platform: {}'.format(name, version, game_map, server_type, platform)
+      output = 'server \'{}\' is online [version: {}, map: {}, type: {}, platform: {}]'.format(name, version, game_map, server_type, platform)
       return self.result_cls(nagiosplugin.Ok, metric=metric, hint=output)
 
 
